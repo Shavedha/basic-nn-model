@@ -13,9 +13,7 @@ To develop a neural network regression model for the given dataset.
 ## NEURAL NETWORK MODEL
 The neural network architecture comprises two hidden layers with ReLU activation functions, each having 5 and 3 neurons respectively, and a linear output layer with 1 neuron.
 
-
-
-
+<img width="503" alt="EX1 NN MODEL" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/ecff89c1-93a7-48db-ac85-e5c2a0589408">
 
 ## DESIGN STEPS
 
@@ -107,28 +105,23 @@ X_n1 = [[21]]
 X_n1_1 = scaler.transform(X_n1)
 model.predict(X_n1_1)
 
-
-
 ```
 ## Dataset Information
-
-![Uploading image.png…]()
-
+<img width="137" alt="image" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/a1c7a570-a6ba-40a4-819f-982fa57766fd">
 
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
+<img width="397" alt="image" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/f2809941-2e93-4fad-bd2b-5bcdcb7a135f">
 
-Include your plot here
+### Epoch Training
+<img width="412" alt="image" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/eab700f4-016d-4915-84e3-c7eec39788ef">
 
 ### Test Data Root Mean Squared Error
-
-Find the test data root mean squared error
+<img width="373" alt="image" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/4f9374cb-89c0-4d10-8581-66e419ec0027">
 
 ### New Sample Data Prediction
-
-Include your sample input and output here
+<img width="380" alt="image" src="https://github.com/Shavedha/basic-nn-model/assets/93427376/15836cf4-d201-4495-8588-196723f44517">
 
 ## RESULT
-
-Include your result here
+Thus a Neural Network Regression model is executed successfully for the given inputs.
